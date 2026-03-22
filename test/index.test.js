@@ -1,13 +1,12 @@
 /**
- * @jest-environment jsdom
+ @jest-environment jsdom
  */
-
-const {
+const { 
   addElementToDOM,
   removeElementFromDOM,
   simulateClick,
   handleFormSubmit,
-} = require('../index')
+} = require('../index.js')
 
 describe('DOM Testing and User Behavior Simulation', () => {
   beforeEach(() => {
